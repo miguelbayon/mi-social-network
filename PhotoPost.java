@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Clase MessagePost: un post de texto
+ * Clase PhotoPost: un post con una foto
  * 
  * @author Miguel Bayon
  * @version 1.0
