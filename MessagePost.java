@@ -43,6 +43,15 @@ public class MessagePost extends Post
         System.out.println(timeString(getTimeStamp()));
         printLikesAndComments();
     }
+    
+    /**
+     * Muestra por pantalla el nombre del usuario que creo el post
+     *
+     */
+    public void printShortSummary()
+    {
+        System.out.println("Esto es un post de texto creado por " + getUsername());
+    }    
 }
 
 
